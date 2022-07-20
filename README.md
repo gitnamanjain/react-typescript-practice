@@ -1,8 +1,10 @@
-## Seed code - Boilerplate
+# Problem Statement: Make a todo list with react and typescript
 
-### Instructions
-Refer the PROBLEM.md file for the problem description.
+### 1. Create a new project with 'create-react-app' with appropriate commands.
+### 2. Once the project is made, remove all the default code provided and start with a clean slate to make your own components.
+### 3. Start building the application with following features and all components should be typescript based
+ - As a user, I should be able to add a todo.
+ - As a user, I should be able to see the list of all the added todos.
+ - As a user, I should be able to delete an individual todo item.
 
-#### To use this as a boilerplate for your assignment, please follow below step.
-
-1. **FORK** this repository in your Gitlab account
+### Note - Visualise the UI on your own and come with a nice interactive user experience.
