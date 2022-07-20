@@ -1,3 +1,9 @@
+interface ITodo{
+  list:{
+    todo: string;
+    id: number;
+  }[];
+}
 function Todo(props:any) {
   return (
     <>

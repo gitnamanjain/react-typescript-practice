@@ -3,12 +3,18 @@ import { useEffect } from "react";
 import './App.css';
 import Todo from './Todo';
 import axios from 'axios';
+interface ITodo{
+  list:{
+    todo: string;
+    id: number;
+  }[];
+}
 function App() {
-  const [list, setList] = useState([])
+  const [list, setList] = useState<ITodo["list"]>([])
   useEffect(() => {
     fetchData()
   }, [])
-  const updatingList=(data: any)=>{
+  const updatingList=(data: ITodo["list"])=>{
     setList(data)
   }
   async function fetchData() {
